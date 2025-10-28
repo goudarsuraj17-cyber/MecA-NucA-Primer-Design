@@ -1,0 +1,10 @@
+# --- Output Directories ---
+/alignments/
+/gene_fasta/
+/consensus/
+
+# --- Temporary and Index Files ---
+*.fai       # FASTA index files (created by bedtools)
+*.orig      # Original file backups created by our script
+*.temp      # Any temporary files created during processing
+*~          # Files created by text editors (like nano or gedit)
